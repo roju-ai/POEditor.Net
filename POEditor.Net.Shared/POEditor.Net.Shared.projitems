@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>4bc4703e-362a-48f7-be14-0cd2c5321e74</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>POEditor</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Body\BaseRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Body\BaseResponseWithResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Body\BaseResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Body\ProjectsListRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Body\ProjectsListResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)IPOEditorClientV2.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\Project.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\ResponseBasic.cs" />
+  </ItemGroup>
+</Project>
