@@ -11,5 +11,11 @@ namespace POEditor
     {
         [Post("/v2/projects/list")]
         Task<ProjectsListResponse> ProjectsList([Body(BodySerializationMethod.UrlEncoded)] ProjectsListRequest requestBody);
+
+        [Post("/v2/terms/list")]
+        Task<TermsListResponse> TermsList([Body(BodySerializationMethod.UrlEncoded)] TermsListRequest requestBody);
+
+        [Post("/v2/terms/add")]
+        Task<TermsAddResponse> TermsAdd([Body(BodySerializationMethod.UrlEncoded)] TermsAddRequest requestBody);
     }
 }

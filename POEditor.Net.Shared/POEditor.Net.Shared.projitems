@@ -14,8 +14,19 @@
     <Compile Include="$(MSBuildThisFileDirectory)Body\BaseResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Body\ProjectsListRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Body\ProjectsListResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Body\TermsAddRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Body\TermsAddResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Body\TermsAddResponseResult.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Body\TermsListRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Body\TermsListResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Body\TermsListResponseResult.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)IPOEditorClientV2.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\Project.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\ResponseBasic.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\TermDefinition.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\TermsProcessSummary.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\TermTranslated.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\TermTranslation.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\TermTranslationContent.cs" />
   </ItemGroup>
 </Project>
