@@ -8,13 +8,14 @@ namespace POEditor.Model
     public class TermTranslation
     {
         [JsonProperty("content")]
+        [JsonConverter(typeof(TermTranslationContentJsonConverter))]
         public TermTranslationContent Content { get; set; }
 
         [JsonProperty("fuzzy")]
-        public long Fuzzy { get; set; }
+        public int? Fuzzy { get; set; }
 
         [JsonProperty("proofread")]
-        public long Proofread { get; set; }
+        public int? Proofread { get; set; }
 
         [JsonProperty("updated")]
         public string Updated { get; set; }

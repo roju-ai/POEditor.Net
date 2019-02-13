@@ -12,6 +12,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)Body\BaseRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Body\BaseResponseWithResult.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Body\BaseResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Body\LanguagesUpdateRequest.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Body\LanguagesUpdateResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Body\ProjectsListRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Body\ProjectsListResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Body\TermsAddRequest.cs" />
@@ -28,5 +30,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Model\TermTranslated.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\TermTranslation.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Model\TermTranslationContent.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Model\TermTranslationContentJsonConverter.cs" />
   </ItemGroup>
 </Project>

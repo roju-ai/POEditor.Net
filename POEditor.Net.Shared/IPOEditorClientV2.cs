@@ -17,5 +17,8 @@ namespace POEditor
 
         [Post("/v2/terms/add")]
         Task<TermsAddResponse> TermsAdd([Body(BodySerializationMethod.UrlEncoded)] TermsAddRequest requestBody);
+
+        [Post("/v2/languages/update")]
+        Task<LanguagesUpdateResponse> LanguagesUpdate([Body(BodySerializationMethod.UrlEncoded)] LanguagesUpdateRequest requestBody);
     }
 }

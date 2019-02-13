@@ -11,10 +11,10 @@ namespace POEditor.Body
         [JsonProperty("id")]
         public string Id { get; set; } = "";
 
-        [JsonProperty("data")]
-        public string DataToSend => JsonConvert.SerializeObject(Data);
-
         [JsonIgnore]
         public List<TermDefinition> Data { get; set; }
+
+        [JsonProperty("data")]
+        public string DataToSend => JsonConvert.SerializeObject(Data);
     }
 }
