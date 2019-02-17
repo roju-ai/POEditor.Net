@@ -18,6 +18,6 @@ namespace POEditor.Model
         public int? Proofread { get; set; }
 
         [JsonProperty("updated")]
-        public string Updated { get; set; }
+        public DateTime? Updated { get; set; }
     }
 }
