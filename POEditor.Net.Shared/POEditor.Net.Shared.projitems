@@ -19,6 +19,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Body\LanguagesUpdateResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Body\ProjectsListRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Body\ProjectsListResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Body\ProjectsListResponseResult.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Body\TermsAddRequest.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Body\TermsAddResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Body\TermsAddResponseResult.cs" />

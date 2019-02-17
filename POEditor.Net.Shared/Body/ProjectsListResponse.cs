@@ -5,7 +5,7 @@ using System.Text;
 
 namespace POEditor.Body
 {
-    public class ProjectsListResponse : BaseResponseWithResult<List<Project>>
+    public class ProjectsListResponse : BaseResponseWithResult<ProjectsListResponseResult>
     {
     }
 }

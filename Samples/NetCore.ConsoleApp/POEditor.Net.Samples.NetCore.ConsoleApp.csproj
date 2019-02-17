@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <Import Project="..\..\POEditor.Net.Shared\POEditor.Net.Shared.projitems" Label="Shared" />
+
+  <ItemGroup>
+    <PackageReference Include="Refit" Version="4.6.85" />
+  </ItemGroup>
+
+</Project>
